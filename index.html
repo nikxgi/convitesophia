@@ -217,7 +217,7 @@
    }
   .letter {
     top: 15px !important;   /* agora fica dentro do envelope */
-    left: 40px !important;
+    left: 30px !important;
     z-index: 15;
     width: 190px !important;
     height: 120px !important;
@@ -331,6 +331,19 @@
      0px  0px 5.5px #fff !important;
 }
 
+#frase2,
+#frase5,
+#frase6,
+#frase7 { 
+  color: #fff !important;
+  text-shadow:
+    -1.3px -1.3px 0  rgb(14, 147, 187),
+     1.3px -1.3px 0  rgb(14, 147, 187),
+    -1.3px  1.3px 0  rgb(14, 147, 187),
+     1.3px  1.3px 0  rgb(14, 147, 187),
+     0px  0px 5.5px  rgb(14, 147, 187) !important;
+}
+
     #fraseFinal,
     #frase1,
     #frase2,
@@ -345,8 +358,6 @@
       transform: translateX(-50%);
       font-family: sans-serif;
       font-weight: 700;
-      color: #ffffff;
-      text-shadow: -2px 2px 0 #009bc2 ;
       z-index: 100;
       opacity: 0;
       animation: pulseGlow 2s infinite;
